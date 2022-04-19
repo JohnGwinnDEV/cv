@@ -1,20 +1,63 @@
 body{
-  background-color: #FDF6EC;
+
+  margin: 0;
+  text-align: center;
+  font-family:  serif;
 }
-hr {
+h1 {
+  width: 20%;
+  margin: 0 auto;
+}
+/*div{
 
-
-  border-style: none;
-  border-top-style:dotted;
-  border-color: #DAB88B;
-  border-width: 5px;
-  width: 5%;
+  background-color: #BBBFCA;
+  border:solid;
+}*/
+.top-container {
+  background-color: #BBBFCA;
+  position: relative;
+  padding-top: 100px;
 
 }
-h1{
-color: #B7CADB;
+.middle-container {
+  background-color: #E8E8E8;
+position: relative;
+padding-top: 50px;
 
 }
-h3{
-  color: #B7CADB;
+.bottom-container {
+  background-color: #E8E8E8;
+}
+.hulkjohn{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  max-height: 100px;
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+
+}
+.miner{
+  position: absolute;
+  right: 300px;
+  top: 50px
+  max-height: 100px;
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+
+}
+.johncowboy{
+  max-height: 300px;
+  max-width: 300px;
+  width: 300px;
+  height: 300px;
+}
+.johnprofile{
+  max-height: 200px;
+  max-width: 200px;
+  width: 200px;
+  height: 200px;
+
 }
